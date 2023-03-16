@@ -19,3 +19,10 @@ console.log("USER WORD", userWord);
 const reverseWord = palindromeWord(userWord);
 
 console.log("reverseWord", reverseWord);
+
+// VERIFICO SE E' PALINDROMA
+if (userWord === reverseWord) {
+  console.log("Bravo! E' palindroma");
+} else if (userWord != reverseWord) {
+  console.log("Mi spiace, non è palindroma, riprova!");
+}
